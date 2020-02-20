@@ -1,0 +1,23 @@
+body{background-color:rgb(95, 148, 107);}
+p,h1,h2{color:rgb(0, 0, 133);}
+h1{font-family:Arial;
+    font-size: 44px;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.heder{
+    grid-column: span 3;
+}
+.text1{
+    grid-column: span 2;
+}
+
+.bilder > img{
+    object-fit: scale-down;
+    max-width: 100%;
+}
